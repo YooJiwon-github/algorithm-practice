@@ -5,7 +5,7 @@
 #define N 7
 #define ARRAY_LENGTH 8
 
-// weight, cost, root 초기화 함수
+// weight, cost 초기화 함수
 void wc_init(double weight[ARRAY_LENGTH][ARRAY_LENGTH], double cost[ARRAY_LENGTH][ARRAY_LENGTH], double q[N + 1]);
 // weight table 출력 함수
 void print_weight(double weight[ARRAY_LENGTH][ARRAY_LENGTH]);
@@ -100,3 +100,5 @@ void print_root(int root[ARRAY_LENGTH][ARRAY_LENGTH]) {
 		printf("|------+------+------+------+------+------+------+------|\n");
     }
 }
+
+
